@@ -20,6 +20,10 @@ ipch
 *.vcxproj
 *.sln
 
+# Win32 build products
+*.vcxproj.filters
+*.vcxproj.vpc_crc
+
 # OSX/Linux build products
 *.mak
 *.mak.vpc_crc
