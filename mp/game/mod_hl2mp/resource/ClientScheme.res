@@ -68,7 +68,7 @@ Scheme
 		"Main.Title1.Color"	"255 255 255 255"
 		
 		// Top-left corner of the "DEATHMATCH" on the main screen
-		"Main.Title2.X"		"315"
+		"Main.Title2.X"		"200"
 		"Main.Title2.Y"		"222"
 		"Main.Title2.Color"	"255 255 255 180"
 
@@ -757,7 +757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "HL2MP"
+				"name"  "Trebuchet MS" // TODO
 				"tall"  "46"
 				"weight" "0"
 				"additive" "0"

@@ -1,8 +1,8 @@
 "GameInfo"
 {
 	game	"PetraMP"
-	title	"HALF+LIFE'"
-	title2	"deathmatch mod"
+	title	"petra's"
+	title2	"multiplayer"
 	type multiplayer_only
 	nomodels 0
 	nohimodel 1
