@@ -96,6 +96,7 @@ void ParseParticleEffects( bool bLoadSheets, bool bPrecache )
 	int nCount = files.Count();
 	for ( int i = 0; i < nCount; ++i )
 	{
+		DevMsg("loading particle effect file %s\n", files[i].Get());
 		g_pParticleSystemMgr->ReadParticleConfigFile( files[i], bPrecache, false );
 	}
 
