@@ -6,11 +6,14 @@
 
 CPMPGameMovement::CPMPGameMovement() {}
 
+void CPMPGameMovement::PlayerMove() {
+}
+
 // expose PetraMP gamemovement to SDK base
 static CPMPGameMovement g_GameMovement;
 IGameMovement* g_pGameMovement = (IGameMovement*)&g_GameMovement;
 EXPOSE_SINGLE_INTERFACE_GLOBALVAR(
-	CGameMovement,
+	CPMPGameMovement,
 	IGameMovement,
 	INTERFACENAME_GAMEMOVEMENT,
 	g_GameMovement

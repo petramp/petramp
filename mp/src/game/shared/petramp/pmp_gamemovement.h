@@ -10,6 +10,10 @@
 #endif
 
 class CPMPGameMovement : public CGameMovement {
+	typedef CGameMovement BaseClass;
+
 public:
 	CPMPGameMovement();
+
+	virtual void PlayerMove() override;
 };
