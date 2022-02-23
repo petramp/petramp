@@ -1,8 +1,9 @@
 "GameInfo"
 {
 	game	"PetraMP"
-	title	"petra's"
-	title2	"multiplayer"
+//	title	"petra's"
+//	title2	"multiplayer"
+	gamelogo 1
 	type multiplayer_only
 	nomodels 0
 	nohimodel 1

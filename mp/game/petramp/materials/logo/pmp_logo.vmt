@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+	"$basetexture"	"logo\pmp_logo"
+	"$alphatest"    "1"
+}
