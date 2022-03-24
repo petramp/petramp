@@ -1,6 +1,6 @@
 //========= Copyright Valve Corporation, All rights reserved. ============//
 //
-// Purpose: 
+// Purpose: implements citadel weapon-dissolve field trigger
 //
 //=============================================================================//
 

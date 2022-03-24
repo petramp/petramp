@@ -15,5 +15,6 @@ class CPMPGameMovement : public CGameMovement {
 public:
 	CPMPGameMovement();
 
-	virtual void PlayerMove() override;
+//	int TryPlayerMove(Vector* pFirstDest = nullptr, trace_t* pFirstTrace = nullptr) override;
+	void CategorizePosition() override;
 };

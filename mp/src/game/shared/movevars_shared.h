@@ -50,4 +50,8 @@ extern ConVar r_AirboatViewDampenFreq;
 extern ConVar r_AirboatViewDampenDamp;
 extern ConVar r_AirboatViewZHeight;
 
+// PMP convars
+extern ConVar sv_ground_band;
+extern ConVar sv_slope_fix;
+
 #endif // MOVEVARS_SHARED_H

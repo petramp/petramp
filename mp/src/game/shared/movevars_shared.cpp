@@ -5,6 +5,7 @@
 //=============================================================================//
 
 
+
 #include "cbase.h"
 #include "movevars_shared.h"
 
@@ -65,3 +66,7 @@ ConVar r_JeepViewZHeight( "r_JeepViewZHeight", "10.0", FCVAR_CHEAT | FCVAR_NOTIF
 ConVar r_AirboatViewDampenFreq( "r_AirboatViewDampenFreq", "7.0", FCVAR_CHEAT | FCVAR_NOTIFY | FCVAR_REPLICATED );
 ConVar r_AirboatViewDampenDamp( "r_AirboatViewDampenDamp", "1.0", FCVAR_CHEAT | FCVAR_NOTIFY | FCVAR_REPLICATED);
 ConVar r_AirboatViewZHeight( "r_AirboatViewZHeight", "0.0", FCVAR_CHEAT | FCVAR_NOTIFY | FCVAR_REPLICATED );
+
+// PMP movement convars
+ConVar sv_ground_band("sv_ground_band", "1.0", FCVAR_NOTIFY | FCVAR_REPLICATED, "width of the vertical band (in hu) above the ground which is considered grounded\n", true, 0.0f, true, 5.f);
+ConVar sv_slope_fix("sv_slope_fix", "1");
